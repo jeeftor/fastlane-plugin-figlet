@@ -10,23 +10,37 @@ This project is a [fastlane](https://github.com/fastlane/fastlane) plugin. To ge
 fastlane add_plugin figlet
 ```
 
+It also requires that `figlet` is installed.  On a mac with homebrew you can do this with:
+
+```bash
+ brew install figlet
+```
+
 ## About figlet
 
 Wrapper around figlet which makes large ascii text words
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
 
 ## Example
 
 Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`. 
 
-**Note to author:** Please set up a sample project to make it easy for users to explore what your plugin does. Provide everything that is necessary to try out the plugin in this project (including a sample Xcode/Android project if necessary)
+## Fonts
+
+You can see the fonts here: http://www.figlet.org/examples.html or with
+
+```bash
+showfigfonts
+```
+
+
+
 
 ## Run tests for this plugin
 
 To run both the tests, and code style validation, run
 
-````
+```
 rake
 ```
 

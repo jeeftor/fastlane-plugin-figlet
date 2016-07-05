@@ -1,3 +1,4 @@
 lane :test do
-  figlet
+  figlet(text: "This is a test")
+  figlet(text: "Whimsy", font: "Whimsy")
 end
