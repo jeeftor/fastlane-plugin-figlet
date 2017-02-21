@@ -1,5 +1,17 @@
 # figlet plugin
 
+```
+  __ _       _      _           _             _
+ / _(_) __ _| | ___| |_   _ __ | |_   _  __ _(_)_ __
+| |_| |/ _` | |/ _ \ __| | '_ \| | | | |/ _` | | '_ \
+|  _| | (_| | |  __/ |_  | |_) | | |_| | (_| | | | | |
+|_| |_|\__, |_|\___|\__| | .__/|_|\__,_|\__, |_|_| |_|
+       |___/             |_|            |___/
+
+```
+
+This plugin will allow you to write figlet text in your fastlane file
+
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-figlet)
 
 ## Getting Started
